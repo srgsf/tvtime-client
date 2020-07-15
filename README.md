@@ -1,7 +1,8 @@
 # tvtime-client
 
 ![Tests](https://github.com/srgsf/tvtime-client/workflows/Tests/badge.svg?branch=master&event=push)
-
+![License](https://img.shields.io/github/license/srgsf/tvtime-client)
+![maven](https://img.shields.io/maven-central/v/com.github.srgsf/tvtime-client)  
 A Java wrapper around https://tvtime.com [Rest API](https://api.tvtime.com/doc) using [Retrofit 2](https://square.github.io/retrofit/) and [Moshi](https://github.com/square/moshi#readme) for json serialization.
 
 Pull requests are welcome.
