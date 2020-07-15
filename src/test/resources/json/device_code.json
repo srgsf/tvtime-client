@@ -1,0 +1,8 @@
+{
+  "result": "OK",
+  "device_code": "DEVICE_CODE",
+  "user_code": "USER_CODE",
+  "verification_url": "VERIFICATION_URL",
+  "expires_in": 900,
+  "interval": 5
+}

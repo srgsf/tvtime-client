@@ -1,0 +1,84 @@
+{
+  "result": "OK",
+  "episode": {
+    "id": 110995,
+    "name": "Paternity",
+    "number": 2,
+    "season_number": 1,
+    "air_date": "2004-11-23",
+    "air_time": "21:00",
+    "network": "FOX",
+    "overview": "When a teenage lacrosse player is stricken with an unidentifiable brain disease, Dr. House and the team hustle to give his parents answers. Chase breaks the bad news, the kid has MS, but the boy's night-terror hallucinations disprove the diagnosis and send House and his team back to square one. As the boy's health deteriorates. House's side-bet on the paternity of the patient infuriates Dr. Cuddy and the teenager's parents, but may just pay off in spades.",
+    "images": {
+      "screen": {
+        "1": "https:\/\/dg31sz3gwrwan.cloudfront.net\/screen\/110995\/1_iphone.jpg"
+      }
+    },
+    "show": {
+      "id": 73255,
+      "name": "House",
+      "images": {
+        "poster": {
+          "0": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-0-optimized.jpg",
+          "1": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-1-optimized.jpg",
+          "1,3": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-1,3-optimized.jpg",
+          "1,5": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-1,5-optimized.jpg",
+          "2": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-2-optimized.jpg",
+          "2,6": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-2,6-optimized.jpg",
+          "3": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-3-optimized.jpg",
+          "4": "https:\/\/dg31sz3gwrwan.cloudfront.net\/poster\/73255\/230801-4-optimized.jpg"
+        },
+        "banner": [
+          "https:\/\/dg31sz3gwrwan.cloudfront.net\/banner\/73255\/463441-0-q80.jpg",
+          "https:\/\/dg31sz3gwrwan.cloudfront.net\/banner\/73255\/463441-1-q80.jpg"
+        ],
+        "fanart": {
+          "0": "https:\/\/dg31sz3gwrwan.cloudfront.net\/fanart\/73255\/22439-0-q80.jpg",
+          "1": "https:\/\/dg31sz3gwrwan.cloudfront.net\/fanart\/73255\/22439-1-q80.jpg",
+          "2": "https:\/\/dg31sz3gwrwan.cloudfront.net\/fanart\/73255\/22439-2-q80.jpg",
+          "2.5": "https:\/\/dg31sz3gwrwan.cloudfront.net\/fanart\/73255\/22439-2.5-q80.jpg",
+          "3": "https:\/\/dg31sz3gwrwan.cloudfront.net\/fanart\/73255\/22439-3-q80.jpg",
+          "7": "https:\/\/dg31sz3gwrwan.cloudfront.net\/fanart\/73255\/22439-7-q80.jpg"
+        }
+      },
+      "seen_episodes": 0,
+      "aired_episodes": 0,
+      "genre": "Drama, Suspense",
+      "hashtag": "#House"
+    },
+    "nb_comments": 129,
+    "is_new": false,
+    "seen": true,
+    "previous_episode": {
+      "id": 110994,
+      "season_number": 1,
+      "number": 1,
+      "show": {
+        "id": 73255
+      },
+      "images": {
+        "screen": {
+          "1": "https:\/\/dg31sz3gwrwan.cloudfront.net\/screen\/110994\/1_iphone.jpg"
+        }
+      }
+    },
+    "next_episode": {
+      "id": 110996,
+      "season_number": 1,
+      "number": 3,
+      "show": {
+        "id": 73255
+      },
+      "images": {
+        "screen": {
+          "1": "https:\/\/dg31sz3gwrwan.cloudfront.net\/screen\/110996\/1_iphone.jpg"
+        }
+      }
+    },
+    "mean_rate": 4.6,
+    "emotion": {
+      "id": 1,
+      "name": "Good"
+    }
+  }
+}

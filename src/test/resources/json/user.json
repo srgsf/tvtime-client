@@ -1,0 +1,13 @@
+{
+  "result": "OK",
+  "user": {
+    "id": 111,
+    "name": "user",
+    "image": null,
+    "all_images": {
+      "1": "https:\/\/d36rlb2fgh8cjd.cloudfront.net\/default-images\/default-user-q80.png",
+      "2": "https:\/\/d36rlb2fgh8cjd.cloudfront.net\/default-images\/default-user-q80.png",
+      "square": "https:\/\/d36rlb2fgh8cjd.cloudfront.net\/default-images\/default-user-q80.png"
+    }
+  }
+}
