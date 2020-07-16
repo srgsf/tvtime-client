@@ -41,9 +41,10 @@ Example of Limited Device flow token polling.
             Response<DeviceCode> codeResponse = authClient.deviceCode();
             if (codeResponse.isSuccessful()) {
                 code = codeResponse.body();
+                showToTheUser(code.userCode, code.verificationUrl);
                 String token = token(code);
             }
-            //show code.userCode and code.verificationUrl to the user.
+            
 ...
 
 String token(DeviceCode code) throws IOException, InterruptedException {
