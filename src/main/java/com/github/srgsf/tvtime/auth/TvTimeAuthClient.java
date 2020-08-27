@@ -14,6 +14,7 @@ import com.github.srgsf.tvtime.ApiInterceptor;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.ResponseBody;
+import retrofit2.Call;
 import retrofit2.Converter;
 import retrofit2.Response;
 import retrofit2.Retrofit;
@@ -171,11 +172,22 @@ public class TvTimeAuthClient {
      * @throws IOException if token request fails.
      */
     public Response<String> accessToken(String authorizationCode, String redirectUri) throws IOException {
+        return accessTokenCall(authorizationCode, redirectUri).execute();
+    }
+
+    /**
+     * Retrieves OAuth 2.0 access token using authorization code.
+     *
+     * @param authorizationCode code received as a result of authorization request.
+     * @param redirectUri       uri that was used in a authorization request.
+     * @return OAuth 2.0 access token.
+     */
+    public Call<String> accessTokenCall(String authorizationCode, String redirectUri) {
         return authentication().tokenViaAuthorizationCode(
                 authorizationCode,
                 clientId,
                 clientSecret,
-                redirectUri).execute();
+                redirectUri);
     }
 
     /**
@@ -185,7 +197,16 @@ public class TvTimeAuthClient {
      * @throws IOException if device code request fails.
      */
     public Response<DeviceCode> deviceCode() throws IOException {
-        return authentication().deviceCode(clientId).execute();
+        return deviceCodeCall().execute();
+    }
+
+    /**
+     * Requests new device code.
+     *
+     * @return device code for polling TV Time's authorization server
+     */
+    public Call<DeviceCode> deviceCodeCall() {
+        return authentication().deviceCode(clientId);
     }
 
     /**
@@ -196,11 +217,22 @@ public class TvTimeAuthClient {
      * @throws IOException if token request fails.
      */
     public Response<String> accessToken(String code) throws IOException {
+        return accessTokenCall(code).execute();
+    }
+
+    /**
+     * Retrieves OAuth 2.0 access token using authorization code.     *
+     *
+     * @param code code received as a result of device code request.
+     * @return OAuth 2.0 access token.
+     */
+    public Call<String> accessTokenCall(String code) {
         return authentication().tokenViaDeviceCode(
                 clientId,
                 clientSecret,
-                code).execute();
+                code);
     }
+
 
     /**
      * Helper method to parse error response that contains error message.
